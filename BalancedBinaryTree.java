@@ -1,6 +1,6 @@
 public class BalancedBinaryTree {
     // TODO: Can be made simpler by avoiding object initialization and encode false
-    // as some negative height it simple by avoiding object initialization.
+    // as some negative height.
     public boolean isBalanced(TreeNode root) {
         return balancedHelper(root, 0).isBalanced;
 
